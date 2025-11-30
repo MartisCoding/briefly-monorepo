@@ -25,7 +25,7 @@ briefly-monorepo/
 При первом клоне:
 
 ```bash
-git clone --recurse-submodules <URL_монорепо>
+git clone --recurse-submodules https://github.com/MartisCoding/briefly-monorepo.git
 ```
 
 Если репо уже склонировано:
@@ -59,13 +59,6 @@ docker compose up --build
 
 * Фронт: [http://localhost:3000](http://localhost:3000)
 * API: [http://localhost:8080](http://localhost:8080)
-
----
-
-## Переменные окружения
-
-* `.env` для бэкенда хранится в `backend/.env`.
-* Фронтенд получает URL бэка через `NEXT_PUBLIC_API_URL` в `docker-compose.yml`.
 
 ---
 
