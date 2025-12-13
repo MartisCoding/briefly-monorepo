@@ -1,6 +1,8 @@
 [submodule "backend"]
 	path = backend
 	url = https://github.com/MartisCoding/briefly.git
+	branch = main
 [submodule "frontend"]
 	path = frontend
 	url = https://github.com/MartisCoding/briefly-next-js.git
+	branch = main
