@@ -11,8 +11,6 @@ services:
       - ./backend:/app
       - sqlite-data:/app/data  # Том для хранения SQLite базы данных
     environment:
-      - DATABASE_URL=sqlite:///data/briefly.db  # Путь к SQLite базе
-      - CORS_ORIGINS=http://localhost:3000,http://frontend:3000
     depends_on:
       - frontend
     networks:
