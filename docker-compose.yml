@@ -10,7 +10,6 @@ services:
     volumes:
       - ./backend:/app
       - sqlite-data:/app/data  # Том для хранения SQLite базы данных
-    environment:
     depends_on:
       - frontend
     networks:
